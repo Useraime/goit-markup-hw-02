@@ -1,0 +1,198 @@
+:root {
+/*colors*/
+--primary-color: #757575; 
+--secondary-color: #212121;
+--accent-color: #2196F3; 
+
+/*fonts*/
+
+--primary-font: 'Roboto', sans-serif;
+--secondary-font: 'Raleway', sans-serif;
+--normal-font: 400;
+--medium-font: 500;
+--bold-font: 700;
+--bolder-font: 900;
+}
+
+body {
+font-family: var(--primary-font); 
+color: var(--primary-color) ;
+
+}
+
+/*header*/
+
+.logo {
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    font-style: normal;
+    font-weight: var(--bold-font);
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.logo-accent{
+    font-family: var(--secondary-font);
+    color: var(--accent-color);
+    font-style: normal;
+    font-weight: var(--bold-font);
+    font-size: 26px;
+    line-height: 31px;
+  }
+
+  .menu-item{
+        font-style: normal;
+        font-weight: var(--medium-font);
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+    
+        color: var(--secondary-color);
+  }
+
+  .menu-link{
+    color: var(--secondary-color);
+  }
+
+  .contacts-item{
+    font-style: normal;
+    font-weight: var(--medium-font);
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    /*color: var(--primary-color);*/
+  }
+
+.mail {
+    color: var(--accent-color) ;
+}
+
+.phone {
+    color: var(--primary-color) ;
+}
+    
+
+
+/*hero*/
+.hero-title{
+        font-style: normal;
+        font-weight: var(--bolder-font);
+        font-size: 44px;
+        line-height: 60px;   
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background-color: #2196F3;
+}
+
+.hero-button{
+    font-style: normal;
+    font-weight: var(--bold-font);
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+/*features*/
+
+.features-title{
+    font-style: normal;
+    font-weight: var(--bold-font);
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: var(--secondary-color);
+}
+
+.features-text{
+    font-style: normal;
+    font-weight: var(--normal-font);
+    font-size: 14px;
+    line-height: 24px;  
+    letter-spacing: 0.03em;
+    /*color: var(--primary-color);*/
+}
+
+/*work*/
+
+.work-title{
+    font-style: normal;
+    font-weight: var(--bold-font);
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+
+/*our team*/
+
+.team-title{
+font-style: normal;
+font-weight: var(--bold-font);
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secondary-color);
+}
+
+.team-names{
+font-style: normal;
+font-weight: var(--medium-font);
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--secondary-color)
+}
+
+.team-position{
+font-style: normal;
+font-weight: var(--normal-font);
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+/*footer*/
+
+.address{
+font-style: normal;
+font-weight: var(--normal-font);
+font-size: 14px;
+line-height: 24px; 
+letter-spacing: 0.03em;
+color: #FFFFFF;
+background-color: #2196F3;
+}
+
+.address-phone, .adddress-mail{
+font-style: normal;
+font-weight: var(--normal-font)
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+background-color: #2196F3;
+}
+
+/*filter*/
+
+/*portfolio*/
+
+
+
+
+
+
